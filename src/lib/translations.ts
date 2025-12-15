@@ -1,10 +1,51 @@
 export default {
     en: {
+        "homepage.team_name": "Pegaso Team",
         "homepage.title": "Welcome to the Pegaso Team Page!",
-        "homepage.welcome": "",
+
+        "footer.description":
+            "Pegaso Team is a student engineering project focused on design, aerodynamics, and performance within international STEM racing competitions.",
+
+        "footer.project_title": "Project",
+        "footer.project.project": "The Project",
+        "footer.project.team": "The Team",
+        "footer.project.gallery": "Gallery",
+
+        "footer.links_title": "Useful Links",
+        "footer.links.stem": "STEM Racing Italia",
+        "footer.links.rules": "Competition Rules",
+        "footer.links.competition": "Main Competition",
+
+        "footer.contacts_title": "Contacts",
+        "footer.email": "Email",
+        "footer.phone": "Phone",
+        "footer.not_available": "Not available",
+
+        "footer.rights": "All rights reserved"
     },
+
     it: {
+        "homepage.team_name": "Pegaso Team",
         "homepage.title": "Benvenuti nel sito di Pegaso Team!",
-        "homepage.welcome": "",
-    },
+
+        "footer.description":
+            "Pegaso Team è un progetto studentesco di ingegneria focalizzato su design, aerodinamica e prestazioni nelle competizioni STEM internazionali.",
+
+        "footer.project_title": "Progetto",
+        "footer.project.project": "Il Progetto",
+        "footer.project.team": "Il Team",
+        "footer.project.gallery": "Galleria",
+
+        "footer.links_title": "Link Utili",
+        "footer.links.stem": "STEM Racing Italia",
+        "footer.links.rules": "Regolamento",
+        "footer.links.competition": "Competizione Principale",
+
+        "footer.contacts_title": "Contatti",
+        "footer.email": "Email",
+        "footer.phone": "Telefono",
+        "footer.not_available": "Non disponibile",
+
+        "footer.rights": "Tutti i diritti riservati"
+    }
 };

@@ -3,6 +3,20 @@ export default {
         "homepage.team_name": "Pegaso Team",
         "homepage.title": "Welcome to the Pegaso Team Page!",
 
+        "team.title": "Meet the Team",
+
+        "team.marketing": "Marketing Team",
+        "team.marketing_description": "Marketing and communications for the competition.",
+
+        "team.engineering": "Engineering Team",
+        "team.engineering_description": "Design, mechanical and aerodynamic aspects of the vehicle.",
+
+        "team.comunication": "Comunication Team",
+        "team.comunication_description": "Communications and logistics for the competition.",
+
+       "team.project_management": "Project Management",
+        "team.project_management_description": "Management of the project and its development.",
+
         "footer.description":
             "Pegaso Team is a student engineering project focused on design, aerodynamics, and performance within international STEM racing competitions.",
 
@@ -27,6 +41,19 @@ export default {
     it: {
         "homepage.team_name": "Pegaso Team",
         "homepage.title": "Benvenuti nel sito di Pegaso Team!",
+
+        "team.title": "Il Team",
+        "team.marketing": "Marketing",
+        "team.marketing_description": "Comunicazioni e marketing per la competizione.",
+
+        "team.engineering": "Tecnico",
+        "team.engineering_description": "Aspetti di progettazione, meccanica e aerodinamica del veicolo.",
+
+        "team.comunication": "Comunicazione",
+        "team.comunication_description": "Comunicazioni e logistica per la competizione.",
+
+        "team.project_management": "Gestione del Progetto",
+        "team.project_management_description": "Gestione del progetto e sviluppo.",
 
         "footer.description":
             "Pegaso Team è un progetto studentesco di ingegneria focalizzato su design, aerodinamica e prestazioni nelle competizioni STEM internazionali.",

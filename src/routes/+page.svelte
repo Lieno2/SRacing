@@ -17,12 +17,12 @@
         <LanguageSwapper class="w-[300px]"/>
     </nav>
 
-    <!-- PAGE CONTENT -->
     <section class="flex-1">
-        <!-- Your page content goes here -->
+
+        
+
     </section>
 
-    <!-- FOOTER -->
     <Footer class="mt-auto" />
 
 </main>

@@ -1,6 +1,7 @@
 <script>
-    import { t, locale, locales } from "$lib/i18n.ts";
+    import { t } from "$lib/i18n.ts";
     import Footer from "$lib/components/Footer.svelte";
+    import LanguageSwapper from "$lib/components/LanguageSwapper.svelte"
 </script>
 
 <main class="min-h-screen flex flex-col">
@@ -13,14 +14,7 @@
             {$t("homepage.team_name")}
         </h1>
 
-        <select
-                bind:value={$locale}
-                class="border border-black/20 rounded px-2 py-1 text-sm"
-        >
-            {#each locales as l}
-                <option value={l}>{l}</option>
-            {/each}
-        </select>
+        <LanguageSwapper class="w-[300px]"/>
     </nav>
 
     <!-- PAGE CONTENT -->

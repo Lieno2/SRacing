@@ -4,7 +4,7 @@
 <main>
     <select
             bind:value={$locale}
-            class="border border-black px-2 py-1 text-sm w-[100px]"
+            class="border border-black px-2 py-1 text-sm w-[60px]"
     >
         {#each locales as l}
             <option value={l}>

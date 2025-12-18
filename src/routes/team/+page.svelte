@@ -4,6 +4,7 @@
     import LanguageSwapper from "$lib/components/LanguageSwapper.svelte";
     import TeamCard from "$lib/components/TeamCard.svelte";
     import { UserRound, House } from 'lucide-svelte';
+    import Navbar from "$lib/components/Navbar.svelte";
 
     let members_open = {
         marketing: false,
@@ -55,11 +56,7 @@
 
 <main class="min-h-screen flex flex-col bg-slate-50">
     <!-- NAV -->
-    <nav class="flex items-center justify-between px-8 py-4 border-b border-black/10 mt-4">
-        <img src="" alt="logo" class="h-8 w-auto" />
-        <h1 class="text-lg font-semibold tracking-tight">{$t("team.title")}</h1>
-        <LanguageSwapper class="w-[220px]" />
-    </nav>
+    <Navbar {t}/>
 
     <!-- MAIN SECTION -->
     <section class="flex-1">

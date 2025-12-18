@@ -7,7 +7,7 @@
 
 <article class="group bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 w-full md:h-full flex flex-col">
     <div class="relative h-60 md:h-80">
-        <img src={`/images/${team.slug}.jpeg`} alt="Team {$t(`team.${team.key}`)}" class="w-full h-full object-cover" />
+        <img src={`/images/${team.slug}.jpeg`} alt="Team {$t(`team.${team.key}`)}" class="w-full h-full object-cover object-top" />
         <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
         <div class="absolute bottom-4 left-4 right-4 text-left">
             <p class="text-xs font-medium uppercase tracking-wide text-white/70">{$t(`team.${team.key}`)}</p>

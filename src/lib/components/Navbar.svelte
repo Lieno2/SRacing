@@ -6,7 +6,7 @@
 
 <main>
     <nav class="flex items-center justify-between px-8 py-4 border-b border-black/10 mt-4">
-        <img src="" alt="logo" class="h-8 w-auto" />
+        <img src="logo.svg" alt="logo" class="h-12 w-auto" />
         <h1 class="text-lg font-semibold tracking-tight">{$t("team.title")}</h1>
 
         <!-- Flag + LanguageSwapper container -->

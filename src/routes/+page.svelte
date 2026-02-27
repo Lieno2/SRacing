@@ -2,6 +2,7 @@
     import { t } from "$lib/i18n.ts";
     import Navbar from "$lib/components/Navbar.svelte";
     import Sponsor from "$lib/components/Sponsor.svelte";
+    import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -24,14 +25,14 @@
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a
-                            href="/team"
+                            href="{base}/team"
                             class="inline-flex items-center justify-center rounded-2xl bg-blue-600 px-8 py-3 text-base font-semibold text-white shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-200"
                     >
                         {$t("team.title")}
                         <span class="ml-2 text-lg">→</span>
                     </a>
                     <a
-                            href="/project"
+                            href="{base}/project"
                             class="inline-flex items-center justify-center rounded-2xl border border-blue-200 bg-white/60 px-8 py-3 text-base font-semibold text-blue-700 hover:bg-white hover:border-blue-300 transition-all duration-200"
                     >
                         {$t("footer.project.project")}
@@ -118,7 +119,7 @@
                 {$t("homepage.team_teaser")}
             </p>
             <a
-                    href="/team"
+                    href="{base}/team"
                     class="inline-flex items-center justify-center rounded-2xl bg-blue-600 px-10 py-3 text-base font-semibold text-white shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all duration-200"
             >
                 {$t("team.title")}

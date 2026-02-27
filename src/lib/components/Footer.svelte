@@ -1,6 +1,7 @@
 <script>
     import { t } from "$lib/i18n";
     import { Instagram, Facebook, Linkedin } from 'lucide-svelte';
+    import { base } from '$app/paths';
     export let email = "pegasoteam2025@gmail.com";
     export let phone = "";
 
@@ -24,8 +25,6 @@
             href: "https://www.stemracing.it/competizioni/"
         }
     ];
-
-
 </script>
 
 <footer class="w-full bg-black text-white flex flex-col border-t border-white/10">
@@ -51,17 +50,17 @@
 
             <ul class="flex flex-col gap-2 text-sm text-gray-400">
                 <li>
-                    <a href="/project" class="hover:text-white transition">
+                    <a href="{base}/project" class="hover:text-white transition">
                         {$t("footer.project.project")}
                     </a>
                 </li>
                 <li>
-                    <a href="/team" class="hover:text-white transition">
+                    <a href="{base}/team" class="hover:text-white transition">
                         {$t("footer.project.team")}
                     </a>
                 </li>
                 <li>
-                    <a href="/gallery" class="hover:text-white transition">
+                    <a href="{base}/gallery" class="hover:text-white transition">
                         {$t("footer.project.gallery")}
                     </a>
                 </li>
@@ -150,7 +149,7 @@
     </div>
 
     <p class="self-center py-4 text-xs text-gray-500 border-t border-white/10 w-full text-center">
-        © {new Date().getFullYear()} Pegaso Team — {$t("footer.rights")}
+        © {new Date().getFullYear()} Pegaso Team – {$t("footer.rights")}
     </p>
 
 </footer>

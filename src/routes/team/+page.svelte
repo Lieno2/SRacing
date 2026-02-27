@@ -5,6 +5,7 @@
     import TeamCard from "$lib/components/TeamCard.svelte";
     import { UserRound, House } from 'lucide-svelte';
     import Navbar from "$lib/components/Navbar.svelte";
+    import { base } from '$app/paths';
 
     let members_open = {
         marketing: false,
@@ -82,7 +83,7 @@
                 </a>
 
                 <a
-                        href="/"
+                        href="{base}/"
                         class="inline-flex items-center justify-center rounded-full bg-blue-600 px-12 py-4 text-lg font-semibold text-white shadow-xl hover:bg-blue-700 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-blue-500 focus-visible:ring-offset-2 hover:shadow-2xl transition-all duration-300 mx-auto"
                 >
                     <House class="mr-2"/>

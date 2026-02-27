@@ -14,11 +14,10 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-		// If deploying to https://<username>.github.io/<repo-name>/
-		// uncomment and set the path prefix:
-		// paths: {
-		// 	base: process.env.NODE_ENV === 'production' ? '/SRacing' : ''
-		// }
+		// Required for GitHub Pages subdirectory deployment
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/SRacing' : ''
+		}
 	}
 };
 

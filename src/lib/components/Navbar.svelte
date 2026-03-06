@@ -1,6 +1,3 @@
-ELTE
-Copia
-
 <script>
     import LanguageSwapper from './LanguageSwapper.svelte';
     import { locale } from "$lib/i18n.ts";
@@ -21,7 +18,7 @@ Copia
                     class="w-12.5 h-10 "
             />
 
-            <LanguageSwapper class="w-[10px]" />
+            <LanguageSwapper/>
         </div>
     </nav>
 </main>

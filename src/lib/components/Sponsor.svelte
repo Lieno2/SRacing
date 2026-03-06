@@ -1,5 +1,6 @@
 <script>
     import { t } from "$lib/i18n.ts"
+    import { base } from '$app/paths'
     import sponsors from "$lib/data/sponsors.json"
 
     $: sponsorCount = sponsors.length
@@ -29,7 +30,7 @@
                             class="w-32 h-32 sm:w-40 sm:h-40 lg:w-44 lg:h-44 bg-gradient-to-br from-slate-50 to-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300 hover:-translate-y-2 p-4 sm:p-6 flex items-center justify-center"
                     >
                         <img
-                                src={sponsor.logo_href}
+                                src={`${base}/${sponsor.logo_href}`}
                                 alt={sponsor.name || "Sponsor logo"}
                                 class="max-h-20 max-w-24 sm:max-h-24 sm:max-w-28 object-contain"
                                 loading="lazy"

@@ -33,9 +33,7 @@
 
         <!-- Logo + description -->
         <div class="flex flex-col gap-4">
-            <div class="w-36 h-14 bg-white/10 flex items-center justify-center text-gray-400 text-sm">
-                LOGO
-            </div>
+            <img src="{base}/logo.svg" alt="Pegaso Team logo" class="h-14 w-auto" />
 
             <p class="text-sm text-gray-400 leading-relaxed">
                 {$t("footer.description")}

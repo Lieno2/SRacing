@@ -1,12 +1,12 @@
 <script>
     import LanguageSwapper from './LanguageSwapper.svelte';
-    import { locale } from "$lib/i18n.ts";
+    import { locale } from "$lib/i18n";
     import { base } from '$app/paths';
     export let t;
 </script>
 
 <main>
-    <nav class="flex items-center justify-between px-8 py-4 border-b border-black/10 mt-4">
+    <nav class="flex items-center justify-between px-8 py-4 border-b border-black/10">
         <img src="{base}/logo.svg" alt="logo" class="h-12 w-auto" />
         <h1 class="text-lg font-semibold tracking-tight">{$t("team.title")}</h1>
 

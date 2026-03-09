@@ -1,6 +1,6 @@
 <script>
     // @ts-ignore
-    import { t } from "$lib/i18n.ts";
+    import { t } from "$lib/i18n";
     import { base } from '$app/paths'
     import sponsors from "$lib/data/sponsors.json" with { type: "json" }
 

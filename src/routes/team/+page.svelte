@@ -19,33 +19,43 @@
             key: 'marketing',
             slug: 'marketing',
             members: [
-                { initials: 'AR', name: 'Alice Rossi', role: 'Team Lead', color: 'none' },
-                { initials: 'MB', name: 'Marco Bianchi', role: 'Social Media', color: 'none' },
-                { initials: 'AR', name: 'Alice Rossi', role: 'Team Lead', color: 'none' },
-                { initials: 'MB', name: 'Marco Bianchi', role: 'Social Media', color: 'none' },
-                { initials: 'AR', name: 'Alice Rossi', role: 'Team Lead', color: 'none' },
-                { initials: 'MB', name: 'Marco Bianchi', role: 'Social Media', color: 'none' },
+                { initials: 'LC', name: 'Lapo Casati', role: 'Marketing', color: 'none' },
+                { initials: 'DD', name: 'Diego Delbene', role: 'Marketing', color: 'none' },
+                { initials: 'LM', name: 'Leonardo Marra', role: 'Marketing', color: 'none' },
             ]
         },
         {
             key: 'engineering',
             slug: 'engineering',
             members: [
-                { initials: 'LG', name: 'Luca Giordano', role: 'Lead Engineer', color: 'none' }
+                { initials: 'GN', name: 'Giulio Nesi', role: 'Tecnico', color: 'none' },
+                { initials: 'GC', name: 'Giacomo Capriolo', role: 'Tecnico', color: 'none' },
+                { initials: 'CM', name: 'Christian Mauro', role: 'Tecnico', color: 'none' },
+                { initials: 'ND', name: 'Niccolò Dimatteo', role: 'Tecnico', color: 'none' },
+                { initials: 'LB', name: 'Lorenzo Baldi', role: 'Tecnico', color: 'none' },
+                { initials: 'MG', name: 'Mario Giannini', role: 'Tecnico', color: 'none' },
+                { initials: 'MP', name: 'Martina Perlatti', role: 'Tecnico', color: 'none' },
             ]
         },
         {
             key: 'comunication',
             slug: 'communication',
             members: [
-                { initials: 'SR', name: 'Sara Ricci', role: 'Logistics Lead', color: 'none' }
+                { initials: 'SA', name: 'Samiullah Asadullah', role: 'Comunicazione', color: 'none' },
+                { initials: 'WF', name: 'Wishmath Fernando Attacchi Danascus', role: 'Comunicazione', color: 'none' },
+                { initials: 'PS', name: 'Paolo Salvestrini', role: 'Comunicazione', color: 'none' },
+                { initials: 'BG', name: 'Barrios Gilmoryared Padilla', role: 'Comunicazione', color: 'none' },
             ]
         },
         {
             key: 'project_management',
             slug: 'project-management',
             members: [
-                { initials: 'DM', name: 'Davide Moretti', role: 'Project Manager', color: 'none' }
+                { initials: 'RB', name: 'Ricardo Brogi', role: 'Project Manager', color: 'none' },
+                { initials: 'KP', name: 'Kian Pescini', role: 'Project Manager', color: 'none' },
+                { initials: 'LC', name: 'Lorenzo Cardillo', role: 'Project Manager', color: 'none' },
+                { initials: 'AM', name: 'Alessio Merendoni', role: 'Project Manager', color: 'none' },
+                { initials: 'LC', name: 'Lorenzo Corsinovi', role: 'Project Manager', color: 'none' },
             ]
         }
     ];

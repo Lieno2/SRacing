@@ -13,5 +13,10 @@
     "name": "whFactory",
     "logo_href": "sponsors/whFactory.png",
     "href": "https://whfactory.it/"
+  },
+  {
+    "name": "Firenze Est",
+    "logo_href": "sponsors/firenzeEst.png",
+    "href": "#"
   }
 ]

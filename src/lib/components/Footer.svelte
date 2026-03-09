@@ -57,11 +57,6 @@
                         {$t("footer.project.team")}
                     </a>
                 </li>
-                <li>
-                    <a href="{base}/gallery" class="hover:text-white transition">
-                        {$t("footer.project.gallery")}
-                    </a>
-                </li>
             </ul>
         </div>
 

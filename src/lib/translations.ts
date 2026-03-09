@@ -55,7 +55,6 @@ export default {
         "footer.project_title": "Project",
         "footer.project.project": "The Project",
         "footer.project.team": "The Team",
-        "footer.project.gallery": "Gallery",
 
         "footer.links_title": "Useful Links",
         "footer.links.stem": "STEM Racing Italia",
@@ -129,7 +128,6 @@ export default {
         "footer.project_title": "Progetto",
         "footer.project.project": "Il Progetto",
         "footer.project.team": "Il Team",
-        "footer.project.gallery": "Galleria",
 
         "footer.links_title": "Link Utili",
         "footer.links.stem": "STEM Racing Italia",

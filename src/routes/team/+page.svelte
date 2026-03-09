@@ -1,17 +1,16 @@
 <script lang="ts">
-    // @ts-ignore
-    import { t } from "$lib/i18n.ts";
+    import { t } from "$lib/i18n";         
     import Footer from "$lib/components/Footer.svelte";
-    import LanguageSwapper from "$lib/components/LanguageSwapper.svelte";
     import TeamCard from "$lib/components/TeamCard.svelte";
     import { UserRound, House } from 'lucide-svelte';
     import Navbar from "$lib/components/Navbar.svelte";
     import { base } from '$app/paths';
 
-    let members_open = {
+    // Tipa correttamente l'oggetto
+    let members_open: Record<string, boolean> = {
         marketing: false,
         engineering: false,
-        communication: false,
+        comunication: false,
         project_management: false
     };
 
@@ -61,7 +60,7 @@
         }
     ];
 
-    function toggleMembers(teamKey) {
+    function toggleMembers(teamKey: string) {
         members_open[teamKey] = !members_open[teamKey];
     }
 </script>

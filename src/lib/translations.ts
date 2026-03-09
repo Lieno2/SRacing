@@ -1,56 +1,55 @@
 export default {
     en: {
         "homepage.team_name": "Pegaso Team",
-        "homepage.title": "Welcome to the Pegaso Team Page!",
-        "homepage.subtitle": "Student engineering team competing in international STEM racing challenges",
+        "homepage.title": "Welcome to Pegaso Team!",
+        "homepage.subtitle": "A student team building and racing a vehicle for the STEM Racing competition",
 
         "homepage.stem_racing": "STEM Racing",
         "homepage.student_project": "Student Engineering Project",
 
         "homepage.what_is_pegaso": "What is Pegaso Team?",
-        "homepage.about_description": "Pegaso Team is a student-led engineering project focused on designing, building and developing a competitive vehicle for STEM racing competitions. The team brings together students from different disciplines to work on design, aerodynamics, communication and project management.",
+        "homepage.about_description": "Pegaso Team is a group of students working together to design and build a vehicle for the STEM Racing competition. The project brings together people from different backgrounds — engineering, marketing, communication and project management — to tackle a real challenge from start to finish.",
 
         "homepage.focus": "Focus",
         "homepage.team": "Team",
         "homepage.goal": "Goal",
         "homepage.location": "Location",
 
-        "homepage.team_collaboration": "Students collaborating across marketing, engineering, communication and project management.",
-        "homepage.learn_by_doing": "Learn by doing: applying theory to a real racing project, from concept to competition.",
-        "homepage.italy_collaborations": "Based in Italy and open to collaborations with schools, universities and sponsors.",
+        "homepage.team_collaboration": "Students from different disciplines working together on a shared project.",
+        "homepage.learn_by_doing": "Applying what we learn in school to a real engineering challenge.",
+        "homepage.italy_collaborations": "Based in Italy, open to collaborations with schools, universities and sponsors.",
 
-        "homepage.team_teaser": "Discover how the different groups work together to bring the project to life.",
+        "homepage.team_teaser": "Find out who's behind the project and what each team does.",
 
         "homepage.partners_sponsors": "Partners & Sponsors",
-        "homepage.sponsors_description": "This section is reserved for current and future partners who support the project.",
+        "homepage.sponsors_description": "This section is reserved for the people and organisations supporting the project.",
         "homepage.future_sponsor": "Future sponsor {number}",
 
         "homepage.support_collaborate": "Want to support or collaborate?",
-        "homepage.support_description": "Pegaso Team is open to schools, companies and organizations interested in STEM education, sponsorship and technical partnerships.",
+        "homepage.support_description": "We're open to schools, companies and organisations interested in STEM education, sponsorship or technical collaboration.",
 
         "team.title": "Meet the Team",
 
-        "team.marketing": "Marketing Team",
-        "team.marketing_headline": "Driving visibility and engagement",
-        "team.marketing_description": "Crafting compelling campaigns, managing social media presence, and building brand awareness to showcase our team's achievements across international competitions.",
+        "team.marketing": "Marketing",
+        "team.marketing_headline": "Telling our story",
+        "team.marketing_description": "Managing social media, creating content and building the team's public image throughout the season.",
 
-        "team.engineering": "Engineering Team",
-        "team.engineering_headline": "Innovation in motion",
-        "team.engineering_description": "Pushing the boundaries of design, mechanics, and aerodynamics to create high-performance vehicles optimized for speed, efficiency, and reliability in competitive environments.",
+        "team.engineering": "Engineering",
+        "team.engineering_headline": "Building the vehicle",
+        "team.engineering_description": "Responsible for the design, construction and technical development of the vehicle — from the first sketches to race day.",
 
-        "team.comunication": "Communication Team",
-        "team.comunication_headline": "Seamless coordination",
-        "team.comunication_description": "Coordinating seamless logistics, managing event communications, and ensuring smooth operations throughout competitions while maintaining strong stakeholder relationships.",
+        "team.comunication": "Communication",
+        "team.comunication_headline": "Keeping everyone in sync",
+        "team.comunication_description": "Handling internal coordination, external communications and everything that keeps the team organised and connected.",
 
         "team.project_management": "Project Management",
-        "team.project_management_headline": "Strategic execution",
-        "team.project_management_description": "Overseeing strategic planning, timeline management, resource allocation, and cross-team coordination to deliver projects on schedule and exceed performance expectations.",
+        "team.project_management_headline": "Keeping the project on track",
+        "team.project_management_description": "Planning, scheduling and coordinating across all teams to make sure everything comes together on time.",
 
-        "team.show_members": "Show team members",
-        "team.hide_members": "Hide team members",
+        "team.show_members": "Show members",
+        "team.hide_members": "Hide members",
 
-        "footer.description":
-            "Pegaso Team is a student engineering project focused on design, aerodynamics, and performance within international STEM racing competitions.",
+        "footer.description": "Pegaso Team is a student project focused on designing and building a vehicle for the STEM Racing competition.",
 
         "footer.project_title": "Project",
         "footer.project.project": "The Project",
@@ -74,56 +73,55 @@ export default {
 
     it: {
         "homepage.team_name": "Pegaso Team",
-        "homepage.title": "Benvenuti nel sito di Pegaso Team!",
-        "homepage.subtitle": "Squadra studentesca di ingegneria impegnata nelle sfide di corsa STEM internazionali",
+        "homepage.title": "Benvenuti su Pegaso Team!",
+        "homepage.subtitle": "Un team studentesco che progetta e corre un veicolo per la competizione STEM Racing",
 
         "homepage.stem_racing": "STEM Racing",
         "homepage.student_project": "Progetto di Ingegneria Studentesco",
 
         "homepage.what_is_pegaso": "Cos'è Pegaso Team?",
-        "homepage.about_description": "Pegaso Team è un progetto di ingegneria studentesco focalizzato sulla progettazione, costruzione e sviluppo di un veicolo competitivo per competizioni di corsa STEM. Il team riunisce studenti di diverse discipline che lavorano su design, aerodinamica, comunicazione e gestione del progetto.",
+        "homepage.about_description": "Pegaso Team è un gruppo di studenti che lavora insieme per progettare e costruire un veicolo per la competizione STEM Racing. Il progetto unisce persone con background diversi — ingegneria, marketing, comunicazione e project management — per affrontare una sfida reale dall'inizio alla fine.",
 
         "homepage.focus": "Focus",
         "homepage.team": "Team",
         "homepage.goal": "Obiettivo",
         "homepage.location": "Sede",
 
-        "homepage.team_collaboration": "Studenti che collaborano tra marketing, ingegneria, comunicazione e gestione del progetto.",
-        "homepage.learn_by_doing": "Imparare facendo: applicare la teoria a un vero progetto di corsa, dalla concezione alla competizione.",
-        "homepage.italy_collaborations": "Basato in Italia e aperto a collaborazioni con scuole, università e sponsor.",
+        "homepage.team_collaboration": "Studenti di discipline diverse che collaborano su un progetto comune.",
+        "homepage.learn_by_doing": "Applicare quello che si studia a scuola a una sfida ingegneristica reale.",
+        "homepage.italy_collaborations": "Con sede in Italia, aperti a collaborazioni con scuole, università e sponsor.",
 
-        "homepage.team_teaser": "Scopri come i diversi gruppi lavorano insieme per dare vita al progetto.",
+        "homepage.team_teaser": "Scopri chi c'è dietro al progetto e cosa fa ogni team.",
 
         "homepage.partners_sponsors": "Partner & Sponsor",
-        "homepage.sponsors_description": "Questa sezione è riservata ai partner attuali e futuri che supportano il progetto.",
+        "homepage.sponsors_description": "Questa sezione è riservata alle persone e alle organizzazioni che supportano il progetto.",
         "homepage.future_sponsor": "Sponsor futuro {number}",
 
         "homepage.support_collaborate": "Vuoi supportare o collaborare?",
-        "homepage.support_description": "Pegaso Team è aperto a scuole, aziende e organizzazioni interessate all'educazione STEM, sponsorizzazioni e partnership tecniche.",
+        "homepage.support_description": "Siamo aperti a scuole, aziende e organizzazioni interessate all'educazione STEM, a sponsorizzazioni o a collaborazioni tecniche.",
 
         "team.title": "Il Nostro Team",
 
         "team.marketing": "Marketing",
-        "team.marketing_headline": "Visibilità e coinvolgimento",
-        "team.marketing_description": "Creiamo campagne accattivanti, gestiamo i social media e costruiamo la brand awareness per mostrare i successi del nostro team nelle competizioni internazionali.",
+        "team.marketing_headline": "Raccontare la nostra storia",
+        "team.marketing_description": "Gestione dei social media, creazione di contenuti e costruzione dell'immagine del team durante tutta la stagione.",
 
-        "team.engineering": "Team Tecnico",
-        "team.engineering_headline": "Innovazione in movimento",
-        "team.engineering_description": "Sviluppiamo design all'avanguardia, meccanica e aerodinamica per veicoli ad alte prestazioni ottimizzati per velocità, efficienza e affidabilità competitiva.",
+        "team.engineering": "Tecnici",
+        "team.engineering_headline": "Costruire il veicolo",
+        "team.engineering_description": "Responsabili della progettazione, costruzione e sviluppo tecnico del veicolo — dai primi schizzi al giorno della gara.",
 
         "team.comunication": "Comunicazione",
-        "team.comunication_headline": "Coordinamento perfetto",
-        "team.comunication_description": "Coordiniamo logistica impeccabile, gestiamo le comunicazioni per gli eventi e assicuriamo operazioni fluide mantenendo relazioni solide con tutti gli stakeholder.",
+        "team.comunication_headline": "Tenere tutti in contatto",
+        "team.comunication_description": "Gestione del coordinamento interno, delle comunicazioni esterne e di tutto ciò che tiene il team organizzato e connesso.",
 
         "team.project_management": "Project Management",
-        "team.project_management_headline": "Esecuzione strategica",
-        "team.project_management_description": "Supervisione della pianificazione strategica, gestione tempistiche, allocazione risorse e coordinamento team per consegnare progetti in tempo e superare gli obiettivi.",
+        "team.project_management_headline": "Tenere il progetto in carreggiata",
+        "team.project_management_description": "Pianificazione, schedulazione e coordinamento tra tutti i team per fare in modo che tutto venga completato nei tempi previsti.",
 
         "team.show_members": "Mostra membri",
         "team.hide_members": "Nascondi membri",
 
-        "footer.description":
-            "Pegaso Team è un progetto studentesco di ingegneria focalizzato su design, aerodinamica e prestazioni nelle competizioni STEM internazionali.",
+        "footer.description": "Pegaso Team è un progetto studentesco che si occupa di progettare e costruire un veicolo per la competizione STEM Racing.",
 
         "footer.project_title": "Progetto",
         "footer.project.project": "Il Progetto",

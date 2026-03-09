@@ -1,21 +1,24 @@
 import { derived, writable } from "svelte/store";
-import translations from "./translations.ts";
+import translations from "./translations.js"; 
 
-export const locale = writable("en");
-export const locales = Object.keys(translations);
+type Locale = keyof typeof translations;
+type TranslationKey = keyof typeof translations['en'];
 
-// @ts-ignore
-function translate(locale, key, vars) {
+export const locale = writable<Locale>("it");
+export const locales = Object.keys(translations) as Locale[];
 
+function translate(locale: Locale, key: string, vars: Record<string, string> = {}): string {
     if (!key) throw new Error("no key provided to $t()");
     if (!locale) throw new Error(`no translation for key "${key}"`);
 
-    // @ts-ignore
-    let text = translations[locale][key];
+    let text: string = translations[locale]?.[key as TranslationKey];
 
-    if (!text) throw new Error(`no translation found for ${locale}.${key}`);
+    if (!text) {
+        console.warn(`no translation found for ${locale}.${key}`);
+        return key; // fallback alla chiave invece di crashare
+    }
 
-    Object.keys(vars).map((k) => {
+    Object.keys(vars).forEach((k) => {
         const regex = new RegExp(`{{${k}}}`, "g");
         text = text.replace(regex, vars[k]);
     });
@@ -23,7 +26,6 @@ function translate(locale, key, vars) {
     return text;
 }
 
-// @ts-ignore
-export const t = derived(locale, ($locale) => (key, vars = {}) =>
+export const t = derived(locale, ($locale) => (key: string, vars: Record<string, string> = {}) =>
     translate($locale, key, vars)
 );

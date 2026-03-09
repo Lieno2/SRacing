@@ -1,6 +1,6 @@
 <script>
     // @ts-ignore
-    import { t } from "$lib/i18n.ts";
+    import { t } from "$lib/i18n";
     import Navbar from "$lib/components/Navbar.svelte";
     import Sponsor from "$lib/components/Sponsor.svelte";
     import { base } from '$app/paths';

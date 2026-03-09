@@ -1,4 +1,5 @@
 <script>
+    // @ts-ignore
     import { t } from "$lib/i18n.ts";
     import Navbar from "$lib/components/Navbar.svelte";
     import Sponsor from "$lib/components/Sponsor.svelte";
@@ -9,7 +10,7 @@
     <title>{$t("homepage.title")}</title>
 </svelte:head>
 
-<main class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 text-gray-900">
+<main class="min-h-screen bg-linear-to-br from-slate-50 to-blue-50 text-gray-900">
     <!-- NAVBAR -->
     <Navbar {t} />
 
@@ -42,8 +43,8 @@
 
             <!-- Hero illustration -->
             <div class="relative">
-                <div class="aspect-[4/3] rounded-3xl bg-gradient-to-br from-blue-600 via-blue-500 to-indigo-600 shadow-2xl flex items-center justify-center overflow-hidden">
-                    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,_white,_transparent_60%)]"></div>
+                <div class="aspect-4/3 rounded-3xl bg-linear-to-br from-blue-600 via-blue-500 to-indigo-600 shadow-2xl flex items-center justify-center overflow-hidden">
+                    <div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top,white,transparent_60%)]"></div>
                     <div class="relative text-center text-white px-6">
                         <p class="text-sm uppercase tracking-[0.2em] text-white/70 mb-3">
                             {$t("homepage.stem_racing")}

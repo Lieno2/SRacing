@@ -1,5 +1,6 @@
 <script>
-    import { t } from "$lib/i18n.ts"
+    // @ts-ignore
+    import { t } from "$lib/i18n.ts";
     import { base } from '$app/paths'
     import sponsors from "$lib/data/sponsors.json" with { type: "json" }
 
@@ -27,7 +28,7 @@
             {#each sponsors as sponsor}
                 <a href={sponsor.href} target="_blank" rel="noopener noreferrer">
                     <div
-                            class="w-32 h-32 sm:w-40 sm:h-40 lg:w-44 lg:h-44 bg-gradient-to-br from-slate-50 to-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300 hover:-translate-y-2 p-4 sm:p-6 flex items-center justify-center"
+                            class="w-32 h-32 sm:w-40 sm:h-40 lg:w-44 lg:h-44 bg-linear-to-br from-slate-50 to-gray-50 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl hover:border-gray-200 transition-all duration-300 hover:-translate-y-2 p-4 sm:p-6 flex items-center justify-center"
                     >
                         <img
                                 src={`${base}/${sponsor.logo_href}`}

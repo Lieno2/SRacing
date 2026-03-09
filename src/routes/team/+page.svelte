@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    // @ts-ignore
     import { t } from "$lib/i18n.ts";
     import Footer from "$lib/components/Footer.svelte";
     import LanguageSwapper from "$lib/components/LanguageSwapper.svelte";
@@ -103,5 +104,5 @@
             </div>
     </section>
 
-    <Footer class="mt-auto" />
+    <Footer/>
 </main>

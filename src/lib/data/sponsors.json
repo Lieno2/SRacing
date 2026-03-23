@@ -18,5 +18,21 @@
     "name": "Firenze Est",
     "logo_href": "sponsors/firenzeEst.png",
     "href": "#"
+  },
+  {
+    "name": "RA Meccanica",
+    "logo_href": "sponsors/raMeccanica.png",
+    "href": "#"
+  },
+  {
+    "name": "Marvis",
+    "logo_href": "sponsors/marvis.png",
+    "href": "#"
+  },
+  {
+    "name": "Fiordelmondo Lubrificanti / Castrol",
+    "logo_href": "sponsors/fiordelmondo.png",
+    "logo_href_secondary": "sponsors/castrol.png",
+    "href": "#"
   }
 ]
